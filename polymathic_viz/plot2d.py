@@ -65,13 +65,17 @@ class ChessboardPlotter:
         self.images = np.array(images)
         return self.images
     
-    def plot_gif(self, filename):
+    def plot_gif(self, filename, fps=None):
+        # If fps is not provided, set it to finish the animation in 0.5 minute
+        if fps is None:
+            fps = self.timestamps / 30
+        print("Creating gif with fps: ", fps, "to file: ", filename, "for timestamps: ", self.timestamps, "timepoints")
         images = self.plot_images()
-        imageio.mimsave(filename, images, fps=1, loop=0)
+        imageio.mimsave(filename, images, fps=fps, loop=0)
         self.images = images
 
 def max_value_chessboard(name, data3d, row_size=4, color_map='viridis', plotWidth=1000, plotHeight=500):
-    data2d = np.max(data3d, axis=1)
+    data2d = np.max(data3d, axis=2)
     plotter = ChessboardPlotter(name, data2d, row_size=row_size, color_map=color_map, plotWidth=plotWidth, plotHeight=plotHeight)
     return plotter
     
