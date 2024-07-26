@@ -1,0 +1,39 @@
+{
+    "dataset_name": "turbulent_radiative_layer_2D",
+    "num_hdf5_files": 9,
+    "is2D": true,
+    "scale": "normal",
+    "geometry": "cartesian",
+    "fps": 7,
+    "color": "RdBu_r",
+    "t0": [
+        "density",
+        "pressure"
+    ],
+    "t1": [
+        "velocity"
+    ],
+    "t2": [],
+    "file_names": [
+        "turbulent_radiative_layer_tcool_0.03",
+        "turbulent_radiative_layer_tcool_0.06",
+        "turbulent_radiative_layer_tcool_0.10",
+        "turbulent_radiative_layer_tcool_0.18",
+        "turbulent_radiative_layer_tcool_0.32",
+        "turbulent_radiative_layer_tcool_0.56",
+        "turbulent_radiative_layer_tcool_1.00",
+        "turbulent_radiative_layer_tcool_1.78",
+        "turbulent_radiative_layer_tcool_3.16"
+    ],
+    "paths": [
+        "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_2D/data/train/turbulent_radiative_layer_tcool_0.03.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_2D/data/train/turbulent_radiative_layer_tcool_0.06.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_2D/data/train/turbulent_radiative_layer_tcool_0.10.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_2D/data/train/turbulent_radiative_layer_tcool_0.18.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_2D/data/train/turbulent_radiative_layer_tcool_0.32.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_2D/data/train/turbulent_radiative_layer_tcool_0.56.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_2D/data/train/turbulent_radiative_layer_tcool_1.00.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_2D/data/train/turbulent_radiative_layer_tcool_1.78.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_2D/data/train/turbulent_radiative_layer_tcool_3.16.hdf5"
+    ]
+}

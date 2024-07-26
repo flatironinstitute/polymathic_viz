@@ -1,0 +1,31 @@
+{
+    "dataset_name": "pattern_formation",
+    "num_hdf5_files": 6,
+    "is2D": true,
+    "scale": "normal",
+    "geometry": "cartesian",
+    "fps": 7,
+    "color": "viridis",
+    "t0": [
+        "A",
+        "B"
+    ],
+    "t1": [],
+    "t2": [],
+    "file_names": [
+        "pattern_formation_bubbles_F_0.098_k_0.057",
+        "pattern_formation_gliders_F_0.014_k_0.054",
+        "pattern_formation_maze_F_0.029_k_0.057",
+        "pattern_formation_spirals_F_0.018_k_0.051",
+        "pattern_formation_spots_F_0.03_k_0.062",
+        "pattern_formation_worms_F_0.058_k_0.065"
+    ],
+    "paths": [
+        "/mnt/home/polymathic/ceph/the_well/datasets/pattern_formation/data/train/pattern_formation_bubbles_F_0.098_k_0.057.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/pattern_formation/data/train/pattern_formation_gliders_F_0.014_k_0.054.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/pattern_formation/data/train/pattern_formation_maze_F_0.029_k_0.057.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/pattern_formation/data/train/pattern_formation_spirals_F_0.018_k_0.051.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/pattern_formation/data/train/pattern_formation_spots_F_0.03_k_0.062.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/pattern_formation/data/train/pattern_formation_worms_F_0.058_k_0.065.hdf5"
+    ]
+}

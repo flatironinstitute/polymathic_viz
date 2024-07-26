@@ -1,0 +1,48 @@
+{
+    "dataset_name": "supernova_explosion_128",
+    "num_hdf5_files": 13,
+    "is2D": false,
+    "scale": "lognorm",
+    "geometry": "cartesian",
+    "fps": 7,
+    "color": "magma",
+    "t0": [
+        "density",
+        "pressure",
+        "temperature"
+    ],
+    "t1": [
+        "velocity"
+    ],
+    "t2": [],
+    "file_names": [
+        "supernova_explosion_Msun_0.1_dim128_file_00",
+        "supernova_explosion_Msun_0.1_dim128_file_01",
+        "supernova_explosion_Msun_0.1_dim128_file_02",
+        "supernova_explosion_Msun_0.1_dim128_file_03",
+        "supernova_explosion_Msun_0.1_dim128_file_04",
+        "supernova_explosion_Msun_0.1_dim128_file_05",
+        "supernova_explosion_Msun_0.1_dim128_file_06",
+        "supernova_explosion_Msun_0.1_dim128_file_07",
+        "supernova_explosion_Msun_0.1_dim128_file_08",
+        "supernova_explosion_Msun_0.1_dim128_file_09",
+        "supernova_explosion_Msun_0.1_dim128_file_10",
+        "supernova_explosion_Msun_0.1_dim128_file_11",
+        "supernova_explosion_Msun_0.1_dim128_file_12"
+    ],
+    "paths": [
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_00.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_01.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_02.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_03.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_04.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_05.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_06.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_07.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_08.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_09.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_10.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_11.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_12.hdf5"
+    ]
+}

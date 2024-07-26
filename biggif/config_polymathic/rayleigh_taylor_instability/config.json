@@ -1,0 +1,30 @@
+{
+    "dataset_name": "rayleigh_taylor_instability",
+    "num_hdf5_files": 5,
+    "is2D": false,
+    "scale": "normal",
+    "geometry": "cartesian",
+    "fps": 7,
+    "color": "RdBu_r",
+    "t0": [
+        "density"
+    ],
+    "t1": [
+        "velocity"
+    ],
+    "t2": [],
+    "file_names": [
+        "rayleigh_taylor_instability_At_0625",
+        "rayleigh_taylor_instability_At_125",
+        "rayleigh_taylor_instability_At_25",
+        "rayleigh_taylor_instability_At_50",
+        "rayleigh_taylor_instability_At_75"
+    ],
+    "paths": [
+        "/mnt/home/polymathic/ceph/the_well/datasets/rayleigh_taylor_instability/data/train/rayleigh_taylor_instability_At_0625.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/rayleigh_taylor_instability/data/train/rayleigh_taylor_instability_At_125.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/rayleigh_taylor_instability/data/train/rayleigh_taylor_instability_At_25.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/rayleigh_taylor_instability/data/train/rayleigh_taylor_instability_At_50.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/rayleigh_taylor_instability/data/train/rayleigh_taylor_instability_At_75.hdf5"
+    ]
+}

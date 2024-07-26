@@ -1,0 +1,54 @@
+{
+    "dataset_name": "acoustic_scattering_maze_2d",
+    "num_hdf5_files": 16,
+    "is2D": true,
+    "scale": "normal",
+    "geometry": "cartesian",
+    "fps": 7,
+    "color": "RdBu_r",
+    "t0": [
+        "bulk_modulus",
+        "density",
+        "pressure"
+    ],
+    "t1": [
+        "velocity"
+    ],
+    "t2": [],
+    "file_names": [
+        "acoustic_scattering_maze_2d_chunk_0",
+        "acoustic_scattering_maze_2d_chunk_1",
+        "acoustic_scattering_maze_2d_chunk_10",
+        "acoustic_scattering_maze_2d_chunk_11",
+        "acoustic_scattering_maze_2d_chunk_12",
+        "acoustic_scattering_maze_2d_chunk_13",
+        "acoustic_scattering_maze_2d_chunk_14",
+        "acoustic_scattering_maze_2d_chunk_15",
+        "acoustic_scattering_maze_2d_chunk_2",
+        "acoustic_scattering_maze_2d_chunk_3",
+        "acoustic_scattering_maze_2d_chunk_4",
+        "acoustic_scattering_maze_2d_chunk_5",
+        "acoustic_scattering_maze_2d_chunk_6",
+        "acoustic_scattering_maze_2d_chunk_7",
+        "acoustic_scattering_maze_2d_chunk_8",
+        "acoustic_scattering_maze_2d_chunk_9"
+    ],
+    "paths": [
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_0.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_1.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_10.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_11.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_12.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_13.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_14.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_15.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_2.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_3.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_4.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_5.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_6.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_7.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_8.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_9.hdf5"
+    ]
+}

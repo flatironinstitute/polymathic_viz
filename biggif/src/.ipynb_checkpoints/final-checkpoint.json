@@ -1,0 +1,519 @@
+{
+    "numRows": 4,
+    "numColumns": 6,
+    "squareImageWidth": 256,
+    "squareImageHeight": 256,
+    "standardTimeLength": 200,
+    "grid": [
+        {
+            "shape": "square",
+            "column": 0,
+            "rowInColumn": 0,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/active_matter/data/train/active_matter_L_10.0_zeta_1.0_alpha_-1.0.hdf5",
+                "dataset": "active_matter",
+                "tnum": 2,
+                "fieldname": "E",
+                "dimension": [
+                    0,
+                    0
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 0,
+            "rowInColumn": 1,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/convective_envelope_rsg/data/train/convective_envelope_rsg_trajectories_10.hdf5",
+                "dataset": "convective_envelope_rsg",
+                "tnum": 0,
+                "fieldname": "density",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 1
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 0,
+            "rowInColumn": 2,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_2D/data/train/turbulent_radiative_layer_tcool_1.78.hdf5",
+                "dataset": "turbulent_radiative_layer_2D",
+                "tnum": 1,
+                "fieldname": "velocity",
+                "dimension": [
+                    0,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "square",
+            "column": 0,
+            "rowInColumn": 3,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_11.hdf5",
+                "dataset": "acoustic_scattering_maze_2d",
+                "tnum": 0,
+                "fieldname": "pressure",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "square",
+            "column": 0,
+            "rowInColumn": 4,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/pattern_formation/data/train/pattern_formation_spirals_F_0.018_k_0.051.hdf5",
+                "dataset": "pattern_formation",
+                "tnum": 0,
+                "fieldname": "A",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "square",
+            "column": 1,
+            "rowInColumn": 0,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/viscoelastic_instability/data/train/viscoelastic_instability_CAR.hdf5",
+                "dataset": "viscoelastic_instability",
+                "tnum": 0,
+                "fieldname": "c_zz",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 1,
+            "rowInColumn": 1,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/convective_envelope_rsg/data/train/convective_envelope_rsg_trajectories_10.hdf5",
+                "dataset": "convective_envelope_rsg",
+                "tnum": 0,
+                "fieldname": "energy",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 1
+            }
+        },
+        {
+            "shape": "square",
+            "column": 1,
+            "rowInColumn": 2,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/supernova_explosion_128/data/train/supernova_explosion_Msun_0.1_dim128_file_00.hdf5",
+                "dataset": "supernova_explosion_128",
+                "tnum": 0,
+                "fieldname": "temperature",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 2
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 1,
+            "rowInColumn": 3,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/rayleigh_benard/data/train/rayleigh_benard_Rayleigh_1e7_Prandtl_5e-1.hdf5",
+                "dataset": "rayleigh_benard",
+                "tnum": 0,
+                "fieldname": "buoyancy",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "square",
+            "column": 1,
+            "rowInColumn": 4,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/turbulence_gravity_cooling/data/train/turbulence_gravity_cooling_rho0_0.445_Z_0.1_T0_10.hdf5",
+                "dataset": "turbulence_gravity_cooling",
+                "tnum": 0,
+                "fieldname": "density",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 2
+            }
+        },
+        {
+            "shape": "square",
+            "column": 2,
+            "rowInColumn": 0,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/rayleigh_taylor_instability/data/train/rayleigh_taylor_instability_At_75.hdf5",
+                "dataset": "rayleigh_taylor_instability",
+                "tnum": 0,
+                "fieldname": "density",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 0
+            }
+        },
+        {
+            "shape": "square",
+            "column": 2,
+            "rowInColumn": 1,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.13_C3H8_16.0_periodic.hdf5",
+                "dataset": "euler_quadrants",
+                "tnum": 0,
+                "fieldname": "density",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "square",
+            "column": 2,
+            "rowInColumn": 2,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/active_matter/data/train/active_matter_L_10.0_zeta_1.0_alpha_-3.0.hdf5",
+                "dataset": "active_matter",
+                "tnum": 0,
+                "fieldname": "concentration",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "square",
+            "column": 2,
+            "rowInColumn": 3,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/viscoelastic_instability/data/train/viscoelastic_instability_AH.hdf5",
+                "dataset": "viscoelastic_instability",
+                "tnum": 0,
+                "fieldname": "c_zz",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "square",
+            "column": 3,
+            "rowInColumn": 0,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/pattern_formation/data/train/pattern_formation_gliders_F_0.014_k_0.054.hdf5",
+                "dataset": "pattern_formation",
+                "tnum": 0,
+                "fieldname": "A",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "square",
+            "column": 3,
+            "rowInColumn": 1,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_3D/data/train/turbulent_radiative_layer_tcool_0.32.hdf5",
+                "dataset": "turbulent_radiative_layer_3D",
+                "tnum": 0,
+                "fieldname": "density",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 2
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 3,
+            "rowInColumn": 2,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/shear_flow/data/train/shear_flow_Reynolds_5e4_Schmidt_1e0.hdf5",
+                "dataset": "shear_flow",
+                "tnum": 0,
+                "fieldname": "pressure",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 3,
+            "rowInColumn": 3,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/planetswe/data/train/planetswe_IC00_s1.hdf5",
+                "dataset": "planetswe",
+                "tnum": 1,
+                "fieldname": "velocity",
+                "dimension": [
+                    0,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "square",
+            "column": 3,
+            "rowInColumn": 4,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/pattern_formation/data/train/pattern_formation_maze_F_0.029_k_0.057.hdf5",
+                "dataset": "pattern_formation",
+                "tnum": 0,
+                "fieldname": "B",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 4,
+            "rowInColumn": 0,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/shear_flow/data/train/shear_flow_Reynolds_1e4_Schmidt_5e-1.hdf5",
+                "dataset": "shear_flow",
+                "tnum": 0,
+                "fieldname": "tracer",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 4,
+            "rowInColumn": 1,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_21.hdf5",
+                "dataset": "helmholtz_staircase",
+                "tnum": 0,
+                "fieldname": "pressure_re",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "square",
+            "column": 4,
+            "rowInColumn": 2,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/turbulence_gravity_cooling/data/train/turbulence_gravity_cooling_rho0_44.5_Z_1_T0_100.hdf5",
+                "dataset": "turbulence_gravity_cooling",
+                "tnum": 0,
+                "fieldname": "temperature",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 0
+            }
+        },
+        {
+            "shape": "square",
+            "column": 4,
+            "rowInColumn": 3,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.22_C2H6_15.0_periodic.hdf5",
+                "dataset": "euler_quadrants",
+                "tnum": 0,
+                "fieldname": "pressure",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 4,
+            "rowInColumn": 4,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/convective_envelope_rsg/data/train/convective_envelope_rsg_trajectories_0.hdf5",
+                "dataset": "convective_envelope_rsg",
+                "tnum": 0,
+                "fieldname": "density",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 3
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 4,
+            "rowInColumn": 5,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/convective_envelope_rsg/data/train/convective_envelope_rsg_trajectories_1.hdf5",
+                "dataset": "convective_envelope_rsg",
+                "tnum": 0,
+                "fieldname": "density",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 0
+            }
+        },
+        {
+            "shape": "square",
+            "column": 5,
+            "rowInColumn": 0,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/MHD_256/data/train/MHDMa_0.7_Ms_0.5.hdf5",
+                "dataset": "MHD_256",
+                "tnum": 0,
+                "fieldname": "density",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 1
+            }
+        },
+        {
+            "shape": "square",
+            "column": 5,
+            "rowInColumn": 1,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/acoustic_scattering_maze_2d/data/train/acoustic_scattering_maze_2d_chunk_10.hdf5",
+                "dataset": "acoustic_scattering_maze_2d",
+                "tnum": 0,
+                "fieldname": "pressure",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 5,
+            "rowInColumn": 2,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/turbulent_radiative_layer_3D/data/train/turbulent_radiative_layer_tcool_0.32.hdf5",
+                "dataset": "turbulent_radiative_layer_3D",
+                "tnum": 0,
+                "fieldname": "density",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 4
+            }
+        },
+        {
+            "shape": "rectangle",
+            "column": 5,
+            "rowInColumn": 3,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/post_neutron_star_merger/data/train/post_neutron_star_merger_scenario_0.hdf5",
+                "dataset": "post_neutron_star_merger",
+                "tnum": 0,
+                "fieldname": "electron_fraction",
+                "dimension": [
+                    null,
+                    null
+                ],
+                "condition": 0,
+                "slice": 0
+            }
+        },
+        {
+            "shape": "square",
+            "column": 5,
+            "rowInColumn": 4,
+            "gif": {
+                "filepath": "/mnt/home/polymathic/ceph/the_well/datasets/active_matter/data/train/active_matter_L_10.0_zeta_1.0_alpha_-3.0.hdf5",
+                "dataset": "active_matter",
+                "tnum": 2,
+                "fieldname": "E",
+                "dimension": [
+                    0,
+                    1
+                ],
+                "condition": 0,
+                "slice": null
+            }
+        }
+    ]
+}

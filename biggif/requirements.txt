@@ -1,0 +1,6 @@
+numpy
+matplotlib
+h5py
+pillow
+ipython
+opencv-python

@@ -1,0 +1,37 @@
+{
+    "dataset_name": "viscoelastic_instability",
+    "num_hdf5_files": 7,
+    "is2D": true,
+    "scale": "normal",
+    "geometry": "cartesian",
+    "fps": 7,
+    "color": "RdBu_r",
+    "t0": [
+        "c_zz",
+        "pressure"
+    ],
+    "t1": [
+        "velocity"
+    ],
+    "t2": [
+        "C"
+    ],
+    "file_names": [
+        "viscoelastic_instability_AH",
+        "viscoelastic_instability_CAR",
+        "viscoelastic_instability_EIT",
+        "viscoelastic_instability_transtochaos_EIT_L",
+        "viscoelastic_instability_transtochaos_EIT_SAR",
+        "viscoelastic_instability_transtononchaos_EIT_L",
+        "viscoelastic_instability_transtononchaos_EIT_SAR"
+    ],
+    "paths": [
+        "/mnt/home/polymathic/ceph/the_well/datasets/viscoelastic_instability/data/train/viscoelastic_instability_AH.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/viscoelastic_instability/data/train/viscoelastic_instability_CAR.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/viscoelastic_instability/data/train/viscoelastic_instability_EIT.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/viscoelastic_instability/data/train/viscoelastic_instability_transtochaos_EIT_L.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/viscoelastic_instability/data/train/viscoelastic_instability_transtochaos_EIT_SAR.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/viscoelastic_instability/data/train/viscoelastic_instability_transtononchaos_EIT_L.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/viscoelastic_instability/data/train/viscoelastic_instability_transtononchaos_EIT_SAR.hdf5"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "dataset_name": "MHD_64",
+    "num_hdf5_files": 10,
+    "is2D": false,
+    "scale": "normal",
+    "geometry": "cartesian",
+    "fps": 7,
+    "color": "magma",
+    "t0": [
+        "density"
+    ],
+    "t1": [
+        "magnetic_field",
+        "velocity"
+    ],
+    "t2": [],
+    "file_names": [
+        "MHDMa_0.7_Ms_0.5",
+        "MHDMa_0.7_Ms_0.7",
+        "MHDMa_0.7_Ms_1.5",
+        "MHDMa_0.7_Ms_2",
+        "MHDMa_0.7_Ms_7",
+        "MHDMa_2_Ms_0.5",
+        "MHDMa_2_Ms_0.7",
+        "MHDMa_2_Ms_1.5",
+        "MHDMa_2_Ms_2",
+        "MHDMa_2_Ms_7"
+    ],
+    "paths": [
+        "/mnt/home/polymathic/ceph/the_well/datasets/MHD_64/data/train/MHDMa_0.7_Ms_0.5.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/MHD_64/data/train/MHDMa_0.7_Ms_0.7.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/MHD_64/data/train/MHDMa_0.7_Ms_1.5.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/MHD_64/data/train/MHDMa_0.7_Ms_2.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/MHD_64/data/train/MHDMa_0.7_Ms_7.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/MHD_64/data/train/MHDMa_2_Ms_0.5.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/MHD_64/data/train/MHDMa_2_Ms_0.7.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/MHD_64/data/train/MHDMa_2_Ms_1.5.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/MHD_64/data/train/MHDMa_2_Ms_2.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/MHD_64/data/train/MHDMa_2_Ms_7.hdf5"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "dataset_name": "euler_quadrants",
+    "num_hdf5_files": 20,
+    "is2D": true,
+    "scale": "normal",
+    "geometry": "cartesian",
+    "fps": 7,
+    "color": "RdBu_r",
+    "t0": [
+        "density",
+        "energy",
+        "pressure"
+    ],
+    "t1": [
+        "momentum"
+    ],
+    "t2": [],
+    "file_names": [
+        "euler_quadrants_gamma_1.13_C3H8_16.0_extrap",
+        "euler_quadrants_gamma_1.13_C3H8_16.0_periodic",
+        "euler_quadrants_gamma_1.22_C2H6_15.0_extrap",
+        "euler_quadrants_gamma_1.22_C2H6_15.0_periodic",
+        "euler_quadrants_gamma_1.33_H2O_20.0_extrap",
+        "euler_quadrants_gamma_1.33_H2O_20.0_periodic",
+        "euler_quadrants_gamma_1.365_Dry_air_1000.0_extrap",
+        "euler_quadrants_gamma_1.365_Dry_air_1000.0_periodic",
+        "euler_quadrants_gamma_1.3_CO2_20.0_extrap",
+        "euler_quadrants_gamma_1.3_CO2_20.0_periodic",
+        "euler_quadrants_gamma_1.404_H2_100.0_Dry_air_-15.0_extrap",
+        "euler_quadrants_gamma_1.404_H2_100.0_Dry_air_-15.0_periodic",
+        "euler_quadrants_gamma_1.453_H2_-76.0_extrap",
+        "euler_quadrants_gamma_1.453_H2_-76.0_periodic",
+        "euler_quadrants_gamma_1.4_Dry_air_20.0_extrap",
+        "euler_quadrants_gamma_1.4_Dry_air_20.0_periodic",
+        "euler_quadrants_gamma_1.597_H2_-181.0_extrap",
+        "euler_quadrants_gamma_1.597_H2_-181.0_periodic",
+        "euler_quadrants_gamma_1.76_Ar_-180.0_extrap",
+        "euler_quadrants_gamma_1.76_Ar_-180.0_periodic"
+    ],
+    "paths": [
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.13_C3H8_16.0_extrap.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.13_C3H8_16.0_periodic.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.22_C2H6_15.0_extrap.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.22_C2H6_15.0_periodic.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.33_H2O_20.0_extrap.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.33_H2O_20.0_periodic.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.365_Dry_air_1000.0_extrap.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.365_Dry_air_1000.0_periodic.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.3_CO2_20.0_extrap.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.3_CO2_20.0_periodic.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.404_H2_100.0_Dry_air_-15.0_extrap.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.404_H2_100.0_Dry_air_-15.0_periodic.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.453_H2_-76.0_extrap.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.453_H2_-76.0_periodic.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.4_Dry_air_20.0_extrap.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.4_Dry_air_20.0_periodic.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.597_H2_-181.0_extrap.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.597_H2_-181.0_periodic.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.76_Ar_-180.0_extrap.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/euler_quadrants/data/train/euler_quadrants_gamma_1.76_Ar_-180.0_periodic.hdf5"
+    ]
+}

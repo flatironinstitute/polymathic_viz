@@ -1,0 +1,38 @@
+{
+    "dataset_name": "post_neutron_star_merger",
+    "num_hdf5_files": 6,
+    "is2D": false,
+    "scale": "normal",
+    "geometry": "spherical",
+    "fps": 7,
+    "color": "magma",
+    "t0": [
+        "density",
+        "electron_fraction",
+        "entropy",
+        "internal_energy",
+        "pressure",
+        "temperature"
+    ],
+    "t1": [
+        "magnetic_field",
+        "velocity"
+    ],
+    "t2": [],
+    "file_names": [
+        "post_neutron_star_merger_scenario_0",
+        "post_neutron_star_merger_scenario_3",
+        "post_neutron_star_merger_scenario_4",
+        "post_neutron_star_merger_scenario_5",
+        "post_neutron_star_merger_scenario_6",
+        "post_neutron_star_merger_scenario_7"
+    ],
+    "paths": [
+        "/mnt/home/polymathic/ceph/the_well/datasets/post_neutron_star_merger/data/train/post_neutron_star_merger_scenario_0.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/post_neutron_star_merger/data/train/post_neutron_star_merger_scenario_3.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/post_neutron_star_merger/data/train/post_neutron_star_merger_scenario_4.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/post_neutron_star_merger/data/train/post_neutron_star_merger_scenario_5.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/post_neutron_star_merger/data/train/post_neutron_star_merger_scenario_6.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/post_neutron_star_merger/data/train/post_neutron_star_merger_scenario_7.hdf5"
+    ]
+}

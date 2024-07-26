@@ -1,0 +1,52 @@
+{
+    "dataset_name": "helmholtz_staircase",
+    "num_hdf5_files": 16,
+    "is2D": true,
+    "scale": "normal",
+    "geometry": "cartesian",
+    "fps": 7,
+    "color": "RdBu_r",
+    "t0": [
+        "mask",
+        "pressure_im",
+        "pressure_re"
+    ],
+    "t1": [],
+    "t2": [],
+    "file_names": [
+        "helmholtz_staircase_omega_006",
+        "helmholtz_staircase_omega_02",
+        "helmholtz_staircase_omega_04",
+        "helmholtz_staircase_omega_06",
+        "helmholtz_staircase_omega_08",
+        "helmholtz_staircase_omega_09",
+        "helmholtz_staircase_omega_11",
+        "helmholtz_staircase_omega_13",
+        "helmholtz_staircase_omega_15",
+        "helmholtz_staircase_omega_17",
+        "helmholtz_staircase_omega_18",
+        "helmholtz_staircase_omega_20",
+        "helmholtz_staircase_omega_21",
+        "helmholtz_staircase_omega_23",
+        "helmholtz_staircase_omega_24",
+        "helmholtz_staircase_omega_25"
+    ],
+    "paths": [
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_006.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_02.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_04.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_06.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_08.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_09.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_11.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_13.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_15.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_17.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_18.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_20.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_21.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_23.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_24.hdf5",
+        "/mnt/home/polymathic/ceph/the_well/datasets/helmholtz_staircase/data/train/helmholtz_staircase_omega_25.hdf5"
+    ]
+}
