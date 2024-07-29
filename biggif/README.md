@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 **The ultimate command:**
 ```
-python3 src/biggif_from_json.py ./jsonFiles/biggif.json -s -i
+python src/biggif_from_json.py ./jsonFiles/biggif.json -s -i
 ```
 
 * `-s` or `--save_raw` is a flag to save intermediate results (the individual gifs as seperate .gif, .mp4, .npy files)
