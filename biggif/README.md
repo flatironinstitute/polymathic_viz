@@ -8,6 +8,7 @@ source ./venv/bin/activate
 
 To install necessary packages, in terminal run:
 ```
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
