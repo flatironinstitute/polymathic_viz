@@ -2,8 +2,8 @@
 
 To set up environment, in terminal run:
 ```
-python -m venv ./venv
-source ./venv/bin/activate
+python -m venv .env
+source .env/bin/activate
 ```
 
 To install necessary packages, in terminal run:
@@ -12,28 +12,64 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+## Code Structure
+
+```
+.
+├── .gitignore
+├── .env
+├── README.md
+├── requirements.txt
+├── config_polymathic
+│   ├── README.md
+│   ├── acoustic_scattering_discontinuous_2d
+│   │   └── config.json
+│   ├── acoustic_scattering_inclusions_2d
+│   │   └── config.json
+│   ├── acoustic_scattering_maze_2d
+│   │   └── config.json
+│   └── ...
+├── input
+│   ├── README.md
+│   └── biggif.json
+└── lib
+    ├── polymathic_viz.py
+    ├── get_collection.py
+    └── biggif_from_json.py
+```
+
 ## Create BIGGIF Collage from JSON
 
-**The ultimate command:**
+Create a biggif collage from the given input biggif JSON file:
+```bash
+python lib/biggif_from_json.py input/biggif.json
 ```
-python src/biggif_from_json.py ./jsonFiles/biggif.json -s -i
-```
+*Output will be stored in `./output`*
 
+**Optional Arguments**
+
+* `-i` or `--info` is a flag to turn on logging info in terminal
+* `-g` or `--gif` to get a .gif output
 * `-s` or `--save_raw` is a flag to save intermediate results (the individual gifs as seperate .gif, .mp4, .npy files)
-* `-i` or `--info` is a flag to turn on verbose mode
+    * raw gifs will be saved in folder `./unprocessed`
+    * resized, edited, cropped biggif-ready gifs will be saved in folder `./processed`
 
-## Notes
 
-Everytime you run the command, **three important folders** will be created: 
+## Build up Collection
 
-* `output` folder will store the results (always)
-* `processed` folder will store the cropped/resized individual gifs (if `-s` flag is given)
-* `unprocessed` folder will store the raw/unprocessed indidual gifs (if `-s` flag is given)
-* (`collection` folder is used for a separate command)
+Get a collection of gifs of all fields in all datasets (with a file limit of 3 per dataset):
+```bash
+python lib/get_collection.py --dataset all
+```
+
+For help on all the ways to build up the collection, just run:
+```bash
+python lib/get_collection.py
+```
 
 ## Help:
 
-Make sure you have read access to:
+Before running any command, make sure you have read access to:
 ```
 "/mnt/home/polymathic/ceph/the_well/datasets/"
 ```

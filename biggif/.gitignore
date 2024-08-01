@@ -1,0 +1,8 @@
+collection
+output
+.env
+venv
+unprocessed
+processed
+.ipynb_checkpoints
+__pycache__

@@ -46,8 +46,6 @@ def print_help():
     print()
     print()
     
-    
-
 def parse_arguments():     
     chosen_dataset = None
     limit_files = 3
@@ -145,6 +143,10 @@ def process_file(dataset_index, file_index, t, k, chosen_condition, limit_condit
 def main():
     start_time = time.time()
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    
+    if not os.path.exists(p.collection_dir):
+        os.makedirs(p.collection_dir)
+        
     print()
     print_divider()
     print("\t\tPOLYMATHIC VISUALIZATION TOOL")
