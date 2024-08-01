@@ -1,9 +1,9 @@
 # Polymathic Visualization Tool
 
-To set up environment, in terminal run:
+To set up virtual environment, in terminal run:
 ```
-python -m venv .env
-source .env/bin/activate
+python -m venv .venv
+source .venv/bin/activate
 ```
 
 To install necessary packages, in terminal run:
@@ -17,18 +17,13 @@ pip install -r requirements.txt
 ```
 .
 ├── .gitignore
-├── .env
+├── .venv
 ├── README.md
 ├── requirements.txt
 ├── config_polymathic
 │   ├── README.md
-│   ├── acoustic_scattering_discontinuous_2d
-│   │   └── config.json
-│   ├── acoustic_scattering_inclusions_2d
-│   │   └── config.json
-│   ├── acoustic_scattering_maze_2d
-│   │   └── config.json
-│   └── ...
+│   └── <dataset_name>
+│       └── config.json
 ├── input
 │   ├── README.md
 │   └── biggif.json
@@ -40,7 +35,7 @@ pip install -r requirements.txt
 
 ## Create BIGGIF Collage from JSON
 
-Create a biggif collage from the given input biggif JSON file:
+Create a biggif collage from the given input biggif JSON file (*takes approx 2 minutes*):
 ```bash
 python lib/biggif_from_json.py input/biggif.json
 ```

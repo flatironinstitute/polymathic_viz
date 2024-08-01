@@ -2,6 +2,7 @@ collection
 output
 .env
 venv
+.venv
 unprocessed
 processed
 .ipynb_checkpoints
