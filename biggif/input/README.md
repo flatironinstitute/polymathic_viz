@@ -49,8 +49,8 @@
 
 
 *  `numRows` and `numColumns` describes biggif shape
-*  `squareImageWidth`, `squareImageHeight`, and `standardTimeLength` is used to create the biggif, and also used by postprocessing to resize all square gifs into these dimensions, and all rectangular gif height to `squareImageHeight // 2` 
-*  `grid` represents the collage grid, with each spot having a `shape`, `column`, and `rowInColumn`
+*  `squareImageWidth`, `squareImageHeight`, and `standardTimeLength` is used to create the biggif, and also used to resize all square gifs into these dimensions (rectangular gif has height `squareImageHeight // 2`)
+*  `grid` represents the collage as a "grid", with each "spot" having a `shape`, and coordinate (`column`, `rowInColumn`)
     * Use the `column` to change the column the gif is in
     * Use the `rowInColumn` to change the row the gif is in (space is allocated based on `shape`, overlapping or going over is not allowed)
-* Each spot in the `grid` stores a `gif`, change fields in the gif to change the file stored at this spot
+* Each spot in the `grid` stores a `gif`, this is where gifs can be modified
