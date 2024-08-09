@@ -45,6 +45,7 @@ python lib/biggif_from_json.py input/biggif.json
 
 * `-i` or `--info` is a flag to turn on logging info in terminal
 * `-g` or `--gif` to get a .gif output
+* `--fps <int>` to adjust the frames per second of the output 
 * `-s` or `--save_raw` is a flag to save intermediate results (the individual gifs as seperate .gif, .mp4, .npy files)
     * raw gifs will be saved in folder `./unprocessed`
     * resized, edited, cropped biggif-ready gifs will be saved in folder `./processed`
