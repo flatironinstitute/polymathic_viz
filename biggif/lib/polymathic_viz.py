@@ -49,7 +49,7 @@ datasets = [
 
 # ---------------------- CREATE BIGGIF FROM JSON FILE FUNCTIONS ----------------------
 
-def create_biggif_from_json(json_path, save_inter_res=False, want_gif=False):
+def create_biggif_from_json(json_path, save_inter_res=False, want_gif=False, fps=7):
     """
     Handles the main logic of recreating a BIGGIF from a JSON file.
     Input:
@@ -132,12 +132,12 @@ def create_biggif_from_json(json_path, save_inter_res=False, want_gif=False):
                                             fieldname=gif["fieldname"], slice_num=gif["slice"])
         
         if save_inter_res:
-            write_gif(array, names, save_to_dir=unprocessed_dir, fps=7, dump=True, filepath=gif["filepath"])
+            write_gif(array, names, save_to_dir=unprocessed_dir, fps=fps, dump=True, filepath=gif["filepath"])
         
         array = postprocess_array(array, gif["dataset"], sh, sw, sl)
 
         if save_inter_res:
-            write_gif(array, names, save_to_dir=processed_dir, fps=7, dump=True, filepath=gif["filepath"])
+            write_gif(array, names, save_to_dir=processed_dir, fps=fps, dump=True, filepath=gif["filepath"])
 
         # give this gif a random starting point
         ts, h, w, _ = array.shape
@@ -163,11 +163,11 @@ def create_biggif_from_json(json_path, save_inter_res=False, want_gif=False):
     if want_gif:
         print("Saving .gif...")
         gifversion = os.path.basename(json_path.replace(".json", ".gif"))
-        save_gif(biggif, f"{output_dir}/{gifversion}", fps=7)
+        save_gif(biggif, f"{output_dir}/{gifversion}", fps=fps)
     
     print("Saving .mp4...")
     mpversion = os.path.basename(json_path.replace(".json", ".mp4"))
-    save_video(biggif, f"{output_dir}/{mpversion}", fps=7)
+    save_video(biggif, f"{output_dir}/{mpversion}", fps=fps)
     
     print("Saving .npy...")
     npyversion = os.path.basename(json_path.replace(".json", ""))

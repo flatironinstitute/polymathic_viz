@@ -12,6 +12,7 @@ parser.add_argument("json_file", help="JSON file containing BIGGIF necessary inf
 parser.add_argument("-s", "--save_raw", help="saves the intermediate individual gifs in UNPROCESSED and PROCESSED folder", action="store_true")
 parser.add_argument("-i", "--info", help="Turn on logging to show live action", action="store_true")
 parser.add_argument("-g", "--gif", help="Output the result in .gif as well", action="store_true")
+parser.add_argument("--fps", help="Adjust the FPS of the output video")
 args = parser.parse_args()
 
 # Set logging level based on flags passed in
@@ -41,5 +42,10 @@ if args.json_file:
         if not os.path.exists(p.processed_dir):
             os.makedirs(p.processed_dir)
         s = True
+
+    if args.fps:
+        x = int(args.fps)
+    else:
+        x = 7
         
-    p.create_biggif_from_json(args.json_file, save_inter_res=s, want_gif=w)
+    p.create_biggif_from_json(args.json_file, save_inter_res=s, want_gif=w, fps=x)
